@@ -360,7 +360,7 @@ nav > ul{
 }
 
 #section-3 > p {
-    max-width: 48%;
+    max-width: 50%;
     margin: 0 auto;
     margin-bottom: 88px;
     text-align: left;
@@ -434,6 +434,10 @@ nav > ul{
     
 }
 
+.btn9{
+    margin-bottom: 50px;
+}
+
 /* .in-box input{
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -468,8 +472,72 @@ nav > ul{
 
 
 
+/* footer */
 
+footer{
+    margin-top: 90px;
+    background: rgba(255, 255, 255, 0.1);
+}
 
+footer > div{
+    padding: 60px;
+    margin:  0 auto;
+    border-bottom: 2px solid rgba(255, 255, 255, 0.1);
+    
+}
+
+.foot1, .foot2{
+    width: 50%;
+}
+
+.foot-title{
+    color: rgb(230, 83, 60);
+    font-style: italic;
+    font-size: 4.375rem;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.foot-des{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .875rem;
+    width: 60%;
+    font-weight: 400;
+    text-align: left;
+}
+
+.foot2{
+    display: flex;
+    gap: 150px;
+}
+
+.foot-title2 {
+    color: rgb(255, 255, 255);
+    margin-bottom: 40px;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: left;
+}
+
+.foot2 a{
+    text-decoration: none;
+}
+.foot2  p{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: 1.5rem;
+    font-weight: 400;
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+footer > p{
+    padding: 40px;
+    text-align: center;
+    color: rgba(255, 255, 255, 0.5);
+
+    font-size: 1.25rem;
+    font-weight: 400;
+}
 
 
 /* responsive */
@@ -611,6 +679,30 @@ nav > ul{
         width: 135%;
         
     }
+
+
+
+    /* footer */
+    footer > div{
+        flex-direction: column;
+        gap: 30px;
+    }
+
+    .foot-des{
+       
+        width: 90%;
+       
+    }
+
+    .foot1, .foot2{
+        width: 100%;
+    }
+
+    .foot2{
+        flex-direction: column;
+        gap: 30px;
+    }
+    
     
 
 
