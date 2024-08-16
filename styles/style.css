@@ -6,6 +6,15 @@
   font-style: normal;
 }
 
+.parisienne-regular {
+    font-family: "Parisienne", cursive;
+    font-weight: 400;
+    font-style: normal;
+  }
+  
+  
+
+
 /* for all  */
 *{
     margin: 0;
@@ -25,6 +34,16 @@ html{
     display: flex;
 }
 
+.btn {
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    max-width: 224px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+}
 
 /* header */
 
@@ -64,7 +83,7 @@ nav > ul{
 
 .flex1{
     gap: 45px;
-    margin-right: 150px;
+    margin-right: 190px;
 }
 
 #home{
@@ -89,7 +108,141 @@ nav > ul{
 }
 
 
+/* banner */
+.banner{
+   
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
 
+   
+    
+}
+
+.banner-content{
+    max-width: 520px;
+    margin-left: 150px;
+    margin-top: 100px;
+}
+
+.banner-title{
+    color: white;
+    font-size: 4.48rem;
+    font-weight: 900;
+}
+.shape{
+    font-family: 'Parisienne', cursive; 
+    font-style: italic;
+}
+
+.banner-des{
+    color: rgba(255, 255, 255, 0.5);
+    opacity: .5;
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 28px;
+    margin-bottom: 28px;
+}
+
+.banner-btn{
+    display: flex;
+    gap: 3%;
+}
+
+.dow-btn{
+    background-color: black;
+    border: 1px solid rgb(255, 255, 255);
+}
+
+/* 
+.banner-img{
+    margin-left: 100px;
+} */
+
+
+.tuto{
+    width: 206px;
+    height: 96px;
+
+    align-items: center;
+    gap: 10px;
+    box-sizing: border-box;
+    border: 1px solid rgba(255, 255, 255, 0.1);
+    border-radius: 12px;
+    backdrop-filter: blur(20px);
+    background: rgba(48, 48, 48, 0.54);
+}
+
+.you-img{
+    
+    margin-left: 23px;
+    width: 40px;
+    height: 40px;
+}
+
+.you-num {
+    font-size: 1.5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 8px;
+}
+
+.you-des {
+    font-size: 1rem;
+    font-weight: 400;
+    opacity: .5;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+.free-num{
+    font-size: 2.5rem;
+    font-weight: 900;
+    color: white;
+    margin-bottom: 5px;
+}
+
+.free-des{
+    font-size: .8125rem;
+    font-weight: 400;
+    opacity: .5;
+    color: rgba(239, 237, 232, 0.65);
+}
+
+/* .image2{
+    margin-top: -50px;
+    margin-left: -320px;
+} */
+
+.tuto1{
+    position: relative;
+    padding-left: 7%;
+    
+}
+
+.yoo{
+    margin-top: 30px;
+    margin-right: 120px;
+}
+
+.flex3{
+    gap: 20px;
+}
+
+#you2{
+    width: 180px;
+    margin-top: -450px;
+}
+#you{
+    margin-top: -180px;
+    
+}
+
+/* #you{
+    position: relative;
+    margin-top: -180px;
+    margin-left: -430px;
+    
+} */
 /* responsive */
 @media screen and (max-width: 576px) {
     nav{
@@ -100,13 +253,32 @@ nav > ul{
         max-width: 132px;
         max-height: 43px;
     }
-        
+    
+    .flex1{
+        margin-right: 0px;
+    }
 
     #options{
         display: none;
     }
     #menu{
         display: contents;
+    }
+
+    .banner{
+        flex-direction: column;
+    }
+
+    .banner-content{
+        margin-left: 20px;
+    }
+    .banner-title{
+        font-size: 2.25rem;
+    }
+
+    .yoo{
+        margin: 0 auto;
+        
     }
     
 }
