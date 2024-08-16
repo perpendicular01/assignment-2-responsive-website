@@ -438,14 +438,7 @@ nav > ul{
     margin-bottom: 50px;
 }
 
-/* .in-box input{
-    border-radius: 8px;
-    background: rgba(255, 255, 255, 0.1);
-    
-    border: none;
-    padding: 12px 20px;
-} */
-.in-box input {
+.in-box input{
     border: none; 
     border-radius: 8px;
     background: rgba(255, 255, 255, 0.1);
@@ -455,7 +448,7 @@ nav > ul{
 }
 
 
-.input-grid {
+.input-grid{
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     row-gap: 12px;
@@ -499,7 +492,7 @@ nav > ul{
 
 }
 
-.name {
+.name{
     position: absolute;
     bottom: 50px;
     left: 16px;
@@ -507,9 +500,9 @@ nav > ul{
     font-family: 800;
     font-size: 1.5rem;
 
-  }
+}
 
-  .profession {
+.profession{
     position: absolute;
     bottom: 25px;
     left: 16px;
@@ -518,27 +511,21 @@ nav > ul{
     font-family: 400;
     font-size: 1rem;
 
-  }
-
-/* .card-info {
-    position: absolute;
-    bottom: 20px; 
-    left: 20px; 
-    color: white; 
-    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
-}
-.name {
-    color: white;
-    font-size: 24px;
-    margin: 0;
 }
 
-.profession {
-    color: white;
-    font-size: 16px; 
-    margin: 0;
-} */
+/* section 5 */
 
+.section-5{
+    margin-top: 60px;
+}
+
+
+.youtube{
+    margin-top: 20px;
+    width: 100%;
+    padding: 32px;
+    text-align: center;
+}
 
 
 
@@ -614,8 +601,9 @@ footer > p{
 @media screen and (max-width: 576px) {
     /* common */
     .title{
-        font-size: 1.8rem;
+        font-size: 1.6rem;
         margin: 0px auto;
+        margin-bottom: 10px;
         
         
     }
@@ -756,7 +744,14 @@ footer > p{
         margin: 10px auto;
         grid-template-columns: 1fr;
     }
-    
+
+
+    /* section 5 */
+    .youtube iframe{
+        width: 100%; 
+        height: auto;
+        
+    }
 
 
 
