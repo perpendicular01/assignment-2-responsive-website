@@ -45,6 +45,27 @@ html{
     padding: 16px 40px 16px 40px;
 }
 
+.title{
+    color: white;
+    font-size: 3rem;
+    font-weight: 900;
+    text-align: center;
+    margin-bottom: 14px;
+}
+
+.destin{
+    color: rgba(255, 255, 255, 0.5);
+    font-size: .875rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+.sec{
+    max-width: 75%;
+    margin: 0 auto;
+    margin-top: 100px;
+}
+
 /* header */
 
 header{
@@ -243,8 +264,56 @@ nav > ul{
     margin-left: -430px;
     
 } */
+
+
+
+/* section one */
+
+#section-1{
+    
+}
+
+#section-1 > p{
+    max-width: 50%;
+    margin: 20px auto;
+}
+
+#section-1 > div{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    column-gap: 5%;
+    margin-top: 54px;
+}
+
+.habit-1 > img{
+    border-radius: 50%;
+    width: 100%;
+    margin-bottom: 30px;
+}
+
+.ha-title{
+    color: white;
+    font-size: 1.125rem;
+    font-weight: 600;
+    text-align: center;
+    margin-bottom: 6px;
+}
+
+
 /* responsive */
 @media screen and (max-width: 576px) {
+    /* common */
+    .title{
+        font-size: 1.8rem;
+        margin: 2px auto;
+        
+        
+    }
+    #section-1 > p{
+        max-width: 80%;
+        
+    }
+    
     nav{
         margin: 0;
     }
@@ -280,5 +349,13 @@ nav > ul{
         margin: 0 auto;
         
     }
+
+
+    /*section-1  habits */
+    #section-1 > div{
+        grid-template-columns: 1fr;
+        row-gap: 30px;
+    }
+
     
 }
