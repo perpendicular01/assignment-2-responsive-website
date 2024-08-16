@@ -469,6 +469,76 @@ nav > ul{
 }
 
 
+/* section 4 */
+
+
+.card-container{
+    max-width: 85%;
+    margin: 0 auto;
+    border-radius: 18px;
+    background: rgba(255, 255, 255, 0.1);
+    margin-top: 60px;
+
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap:20px;
+    padding: 20px;
+
+}
+
+.card{
+    position: relative;
+ 
+}
+
+.card-img {
+    width: 100%;
+    height: 270px;
+    border-radius: 18px;
+    background: rgba(0, 0, 0, 0.2),url(image);
+
+}
+
+.name {
+    position: absolute;
+    bottom: 50px;
+    left: 16px;
+    color: white;
+    font-family: 800;
+    font-size: 1.5rem;
+
+  }
+
+  .profession {
+    position: absolute;
+    bottom: 25px;
+    left: 16px;
+    opacity: .7;
+    color: white;
+    font-family: 400;
+    font-size: 1rem;
+
+  }
+
+/* .card-info {
+    position: absolute;
+    bottom: 20px; 
+    left: 20px; 
+    color: white; 
+    text-shadow: 1px 1px 5px rgba(0, 0, 0, 0.5); 
+}
+.name {
+    color: white;
+    font-size: 24px;
+    margin: 0;
+}
+
+.profession {
+    color: white;
+    font-size: 16px; 
+    margin: 0;
+} */
+
 
 
 
@@ -679,6 +749,14 @@ footer > p{
         width: 135%;
         
     }
+
+    /* section 4 */
+    .card-container{
+        max-width: 100%;
+        margin: 10px auto;
+        grid-template-columns: 1fr;
+    }
+    
 
 
 
