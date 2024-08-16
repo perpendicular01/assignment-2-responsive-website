@@ -300,12 +300,64 @@ nav > ul{
 }
 
 
+/* section - 2 */
+
+#section-2 > img{
+    max-width: 35%;
+    border-radius: 18px;
+    margin: 30px 30px;
+}
+
+#section-2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-radius: 18px;
+    background: rgb(34, 34, 34);
+}
+
+#section-2 > div > p,  #section-2 > div > h3{
+    text-align: left;
+}
+
+#section-2 > div {
+    margin: 40px 0px 40px 55px;
+    text-align: left;
+    max-width: 40%;
+}
+
+#section-2 > div > h3{
+    font-size: 3rem;
+    margin-bottom: 14px;
+}
+
+#section-2 > div > p{
+    font-size: 1rem;
+    margin-bottom: 34px;
+}
+
+#section-2 > div > button{
+    color: white;
+    text-align: center;
+    font-size: 1.125rem;
+    font-weight: 600;
+    width: 224px;
+    border-radius: 42px;
+    background: rgb(230, 83, 60);
+    padding: 16px 40px 16px 40px;
+}
+
+
+
+
+
+
 /* responsive */
 @media screen and (max-width: 576px) {
     /* common */
     .title{
         font-size: 1.8rem;
-        margin: 2px auto;
+        margin: 0px auto;
         
         
     }
@@ -356,6 +408,33 @@ nav > ul{
         grid-template-columns: 1fr;
         row-gap: 30px;
     }
+
+
+    /* section-2 */
+    #section-2{
+        flex-direction: column;
+        max-width: 95%;
+    }
+    #section-2 > div{
+        max-width: 95%;
+        margin: 31px 33px 0 33px;
+    }
+    #section-2 > div > h3{
+        font-size: 1.8rem;
+        
+    }
+    #section-2 > div > p{
+        font-size: .875rem; 
+    }
+    #section-2 > div > button{
+        width: 95%;
+    }
+
+    #section-2 > img{
+        max-width: 75%;
+        margin: 30px;
+    }
+
 
     
 }
